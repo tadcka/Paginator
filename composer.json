@@ -1,0 +1,23 @@
+{
+    "name":         "tadcka/paginator",
+    "homepage":     "https://github.com/tadcka/Paginator",
+    "description":  "Paginator component",
+    "keywords":     ["paginator", "paginator component"],
+    "type":         "component",
+    "license":      "MIT",
+    "authors": [
+        {
+            "name":   "Tadas Gliaubicas",
+            "email":  "tadcka89@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tadcka\\Component\\Paginator": ""
+        }
+    }
+}
