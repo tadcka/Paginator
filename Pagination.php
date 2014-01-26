@@ -61,13 +61,13 @@ class Pagination
         $this->itemsPerPage = $itemsPerPage;
         $this->currentPage = $currentPage;
 
-        $this->int();
+        $this->init();
     }
 
     /**
      * Initialize.
      */
-    private function int()
+    private function init()
     {
         if (0 !== $this->totalItems) {
             $this->totalPages = (int)($this->totalItems / $this->itemsPerPage);
