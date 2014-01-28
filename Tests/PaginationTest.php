@@ -14,7 +14,7 @@ namespace Tadcka\Component\Paginator\Tests;
 use Tadcka\Component\Paginator\Pagination;
 
 /**
- * @author Tadas Gliaubicas <tadcka89@gmail.lt>
+ * @author Tadas Gliaubicas <tadcka89@gmail.com>
  *
  * @since 1/26/14 5:44 PM
  */
