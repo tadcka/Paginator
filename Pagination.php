@@ -77,7 +77,7 @@ class Pagination
                 $this->totalPages += 1;
             }
 
-            if (($this->currentPage - 1) > $this->totalPages) {
+            if (($this->currentPage - 1) >= $this->totalPages) {
                 $this->currentPage = $this->totalPages;
             }
 
